@@ -1,0 +1,92 @@
+footer {
+  background-color: #e9e9e9;
+  color: #000000;
+  margin-top: 150px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.footer-upper {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.policies_footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #424242;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-section p {
+  margin: 0;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media li {
+  margin-bottom: 8px;
+}
+
+.footer-lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  margin-left: 20px;
+  padding-left: 40px;
+}
+
+.footer-company {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.footer-payments {
+  margin-right: 20px;
+}
+
+.footer-payments img {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.navigation_footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer, a{
+  font-size: 12px;
+}

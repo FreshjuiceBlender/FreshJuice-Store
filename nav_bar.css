@@ -1,0 +1,125 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+nav img{
+  width: 135px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 55px;
+  transition: all ease .65s;
+  z-index: 100;
+  width: 100%;
+  background-color: transparent;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #161D25;
+  font-weight: bolder;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+
+nav.scroll {
+  margin-top: 40px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  position: fixed;
+}
+
+nav.scroll span {
+  font-size: 18px;
+  color: white;
+}
+
+nav.scroll li {
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+.navbar.scroll{
+  background-color: white;
+  position: fixed;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  font-family: Helvetica, sans-serif;
+  z-index: 999;
+
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+  margin: 0;
+  padding: 0;
+}
+
+
+@keyframes fadeIn{
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.navlink::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #161616; 
+  bottom: 0;
+  left: 0;
+  transition: width 0.4s ease;
+}
+
+.navlink:hover::before {
+  width: 100%;
+}

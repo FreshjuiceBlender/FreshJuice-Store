@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.tiktok-clips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+  padding-left: 330px;
+}
+
+.clip {
+margin-left: -150px;
+}
+
+.clip video {
+  width: 500px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 6px 5px 6px rgba(0, 0, 0, 0.431);
+}
+
+.follow_us{
+  display: flex;
+  justify-content: center;
+  padding-left: 80px;
+  padding-bottom: 20px;
+}

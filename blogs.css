@@ -1,0 +1,17 @@
+.blog_1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+
+}
+
+.blog_1 p{
+  width: 900px;
+  text-align: center;
+}
+
+body{
+  background-color: white;
+}
